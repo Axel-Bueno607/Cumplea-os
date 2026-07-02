@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un pequeño regalo para ti</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="fondo" aria-hidden="true"></div>
+    <div id="petalos" aria-hidden="true"></div>
+
+    <section id="bienvenida" class="pantalla">
+        <div class="card">
+            <h1>Feliz Cumpleaños</h1>
+            <p>Hoy preparé un pequeño detalle para ti.</p>
+            <button id="btnComenzar" type="button">Comenzar</button>
+        </div>
+    </section>
+
+    <section id="tarjeta" class="pantalla oculto">
+        <div class="card">
+            <h2>Hay un regalo esperándote</h2>
+            <p>No es algo que pueda envolverse con papel, pero sí algo hecho con mucho cariño.</p>
+            <button id="btnAbrir" type="button">Abrir regalo</button>
+        </div>
+    </section>
+
+    <section id="regalo" class="pantalla oculto">
+        <div class="card regaloCard">
+            <div id="escena">
+                <div id="gift">
+                    <div id="caja">
+                        <div id="tapaCaja"></div>
+                        <div id="baseCaja"></div>
+                        <div id="brillo"></div>
+                    </div>
+                    <div id="bouquet">
+                        <div id="papel"></div>
+                        <div id="tallo"></div>
+                        <div class="leaf leaf1"></div>
+                        <div class="leaf leaf2"></div>
+
+                        <div class="flower flower1">
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="center"></div>
+                        </div>
+                        <div class="flower flower2">
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="center"></div>
+                        </div>
+                        <div class="flower flower3">
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="center"></div>
+                        </div>
+                        <div class="flower flower4">
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="center"></div>
+                        </div>
+                        <div class="flower flower5">
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="flower-petal"></div>
+                            <div class="center"></div>
+                        </div>
+                        <div id="mono"><span></span></div>
+                    </div>
+                </div>
+            </div>
+            <button id="btnProximo" class="oculto" type="button">Ver próximo detalle</button>
+        </div>
+    </section>
+
+    <section id="carta" class="pantalla oculto">
+        <div class="card cartaCard">
+            <h2>Feliz Cumpleaños</h2>
+            <p id="textoCarta"></p>
+        </div>
+    </section>
+
+    <section id="final" class="pantalla oculto">
+        <div class="card">
+            <h2>Gracias por abrir este pequeño regalo.</h2>
+            <p>Quiero aprovechar este pequeño detalle para darte las gracias. Aunque llevamos apenas un mes de conocernos, este tiempo ha sido muy especial para mí. Poco a poco hemos compartido momentos, pláticas y pequeños detalles que han hecho que cada día te conozca un poco más.
+
+Gracias por permitirme formar parte de tu vida y por darme la oportunidad de ser tu capturista. Es algo que valoro mucho y que me hace muy feliz. Espero seguir compartiendo muchos momentos contigo, conociéndote más y creando nuevos recuerdos.
+
+Deseo de todo corazón que tengas un cumpleaños maravilloso, que cumplas todas tus metas y que nunca te falten motivos para sonreír. Gracias por ser tú y por permitirme estar a tu lado en esta etapa. Feliz cumpleaños.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+  
